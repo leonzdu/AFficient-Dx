@@ -1,0 +1,7 @@
+reference,comparison,metric,reference_minus_comparison,patient_ci_lower,patient_ci_upper,paired_bootstrap_replicates,scope
+afficient_419,smaller_238,auroc,0.0037718012038895354,-0.008423122545704216,0.017137445861863068,500,test-patient sampling conditional on these fitted models; seed variation reported separately
+afficient_419,smaller_238,auprc,-0.010201363248277362,-0.05057265000832203,0.030024654825732022,500,test-patient sampling conditional on these fitted models; seed variation reported separately
+afficient_419,basso_ph_multiscopic,auroc,-0.04764324055495528,-0.059597335952047206,-0.03704244620783477,500,test-patient sampling conditional on these fitted models; seed variation reported separately
+afficient_419,basso_ph_multiscopic,auprc,-0.35990521377922624,-0.40908625128319825,-0.29295677011208554,500,test-patient sampling conditional on these fitted models; seed variation reported separately
+afficient_419,busia_transformer,auroc,-0.03694628800740851,-0.046564571688306126,-0.028925054343724665,500,test-patient sampling conditional on these fitted models; seed variation reported separately
+afficient_419,busia_transformer,auprc,-0.22538560305553312,-0.28628001879862375,-0.1560666822677141,500,test-patient sampling conditional on these fitted models; seed variation reported separately

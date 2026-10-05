@@ -1,0 +1,330 @@
+{
+  "original_sources": {
+    "deliverables/AFficient_Dx_supplementary_package/code/train_afib.py": "307536cd8945e17300aba7b988f3a4bd48bc64c10628fd8267d12fe6598ce9ce",
+    "deliverables/AFficient_Dx_supplementary_package/code/run_study.py": "671c6054dfb3e32b7f83a1f8c6ff40b71df712d7f5be2c734ae697cb124147f5",
+    "analysis/requested_fast_results/code/run_requested_checks.py": "14df4012d61c8f906bf7924d2ee440055a7af63ba0fb268b475aad3fd0b6234e",
+    "analysis/requested_fast_results/code/published_models.py": "31e789ae4d0ed295225b00d2a0c943c68c1f3353f695911419b49187473b1709",
+    "analysis/requested_fast_results/code/data_cache.py": "5de3209dc7c7b44d5a8604dae3679daa1362b7d80545ace62f3cc2325b8efcfd",
+    "analysis/requested_fast_results/code/study_utils.py": "7ed4f1cf355733f9b4786d40e20325733a1916d4b49ac1042ce1c3e2c48d36b2"
+  },
+  "symbols": [
+    {
+      "symbol": "jsonable",
+      "source": "train_afib.py",
+      "destination": "utils",
+      "original_semantic_sha256": "dbdc06bded1d4ed9bacbfa73010526794446e795bc1e66815a060658a443deed",
+      "changed": false
+    },
+    {
+      "symbol": "write_json",
+      "source": "train_afib.py",
+      "destination": "utils",
+      "original_semantic_sha256": "629bec596c970052fce5b4b1aad6a6827919f371b0fe16dcf8ef1392d3bf3eef",
+      "changed": false
+    },
+    {
+      "symbol": "sha256",
+      "source": "train_afib.py",
+      "destination": "utils",
+      "original_semantic_sha256": "34c6ef61dcc8dd9b97e31e3b8f7a400a37555ff738d1de86b48e88ddb807977e",
+      "changed": false
+    },
+    {
+      "symbol": "set_seed",
+      "source": "train_afib.py",
+      "destination": "utils",
+      "original_semantic_sha256": "ef31331874e31cfb0f6508a54a86a3a4f62710f6bbacb360ebae1049027d31dc",
+      "changed": false
+    },
+    {
+      "symbol": "get_device",
+      "source": "train_afib.py",
+      "destination": "utils",
+      "original_semantic_sha256": "e96c84f85ec778a2e925a2883305843a043627b8a5752d1cc6df901fa3d7a1b4",
+      "changed": false
+    },
+    {
+      "symbol": "label_afib",
+      "source": "train_afib.py",
+      "destination": "data",
+      "original_semantic_sha256": "3c36b3f7bdadf5a89ec79069a1a943400b48ab4ebe4455578c8cb360bf316216",
+      "changed": false
+    },
+    {
+      "symbol": "require_two_classes",
+      "source": "train_afib.py",
+      "destination": "data",
+      "original_semantic_sha256": "75b6c0ec95e7e1f4f78aa8b4a417e7b72fa519139b1ad4588de75bbbc63d43e9",
+      "changed": false
+    },
+    {
+      "symbol": "load_metadata",
+      "source": "train_afib.py",
+      "destination": "data",
+      "original_semantic_sha256": "06f5e42cb33ae174af4de7b52f7ad62a5be8f6237723cacd0dfe21f36103ca9c",
+      "changed": false
+    },
+    {
+      "symbol": "partition_validation",
+      "source": "train_afib.py",
+      "destination": "data",
+      "original_semantic_sha256": "0de7441b3d621ee63da51869b39a22a859c5b56962011759625fef7284adc071",
+      "changed": false
+    },
+    {
+      "symbol": "canonical_leads",
+      "source": "train_afib.py",
+      "destination": "data",
+      "original_semantic_sha256": "29dfa848e3513d68872b6aca40d627cc5cc19c0b6bff552715f1cfd9b7640b14",
+      "changed": false
+    },
+    {
+      "symbol": "load_record",
+      "source": "train_afib.py",
+      "destination": "data",
+      "original_semantic_sha256": "961a4e21976b18f26bb92f4b77546958785f0d7af7451d349b7049248077ec9f",
+      "changed": false
+    },
+    {
+      "symbol": "load_split",
+      "source": "train_afib.py",
+      "destination": "data",
+      "original_semantic_sha256": "5c2871db4bb9a035b6f3d79cfce5794db98ef8522e54086a3770ee1802b88807",
+      "changed": false
+    },
+    {
+      "symbol": "Block",
+      "source": "train_afib.py",
+      "destination": "models.residual",
+      "original_semantic_sha256": "0d87c216ac2d3856776170a4a2db4c3ec031360f85f2adf7cdf2ae9a7d1a2e25",
+      "changed": false
+    },
+    {
+      "symbol": "ECGResNet",
+      "source": "train_afib.py",
+      "destination": "models.residual",
+      "original_semantic_sha256": "69adc93c5deea8a0951217afc2940aa87030e41f6fcd8f2b9a7378cb7946d9e9",
+      "changed": false
+    },
+    {
+      "symbol": "make_model",
+      "source": "train_afib.py",
+      "destination": "models.residual",
+      "original_semantic_sha256": "6fc8eaf5cbf9a068e3547eee16b9d17c04ca6cd4d9f3ff8a5dc783d48dd24a72",
+      "changed": false
+    },
+    {
+      "symbol": "logits_from_model",
+      "source": "train_afib.py",
+      "destination": "inference",
+      "original_semantic_sha256": "10fa47d5ce70d278257cefebc4029b1ac5f4936981ee8518536993ee750ca6c1",
+      "changed": false
+    },
+    {
+      "symbol": "make_loader",
+      "source": "train_afib.py",
+      "destination": "inference",
+      "original_semantic_sha256": "89e85c71e3d7ce376074109b8c63faf94067131e1340bfefda43eb7c03475710",
+      "changed": false
+    },
+    {
+      "symbol": "predict_logits",
+      "source": "train_afib.py",
+      "destination": "inference",
+      "original_semantic_sha256": "40aaf686f9dfbff351821f0cb6adc22163ca3d25fefc71a3fc7b1aaca7181c19",
+      "changed": false
+    },
+    {
+      "symbol": "predict",
+      "source": "train_afib.py",
+      "destination": "inference",
+      "original_semantic_sha256": "89ef0d021c8832d9182914756795087dd8970523e7061e5e3232116e3e8632d8",
+      "changed": false
+    },
+    {
+      "symbol": "fit_calibrator",
+      "source": "train_afib.py",
+      "destination": "metrics",
+      "original_semantic_sha256": "f93e17cb6cbd4da221b5b09858437296f76e255460e4e31e0a76a0b66ddd122f",
+      "changed": false
+    },
+    {
+      "symbol": "apply_calibrator",
+      "source": "train_afib.py",
+      "destination": "metrics",
+      "original_semantic_sha256": "9626efa86bf359dfd8d08bba279403d8aea0dd836cbbe3216d99b4db05a072d1",
+      "changed": false
+    },
+    {
+      "symbol": "threshold_from_validation",
+      "source": "train_afib.py",
+      "destination": "metrics",
+      "original_semantic_sha256": "1878d60088a853a8b156cfb061ea33247cae650c864dbd11793e756b0e0ca279",
+      "changed": false
+    },
+    {
+      "symbol": "reliability_table",
+      "source": "train_afib.py",
+      "destination": "metrics",
+      "original_semantic_sha256": "215c3671fd72960f87abfe01ebc0173a54ed2043f0a726ced70aa03450e590a7",
+      "changed": false
+    },
+    {
+      "symbol": "divide",
+      "source": "train_afib.py",
+      "destination": "metrics",
+      "original_semantic_sha256": "45aa18dc3452ffa39dcd3c7ccb7ea0d39219f6c295b8b17fcd7578de3a19c8f7",
+      "changed": false
+    },
+    {
+      "symbol": "scores",
+      "source": "train_afib.py",
+      "destination": "metrics",
+      "original_semantic_sha256": "9b436221ae7788c323ad6fe16efaa9b3a3cbdb1fb7ab0a8af6ae37c3e5a26128",
+      "changed": false
+    },
+    {
+      "symbol": "cluster_resamples",
+      "source": "train_afib.py",
+      "destination": "metrics",
+      "original_semantic_sha256": "b6c11118124d95be52ca88dd39781a9e0da89e3510ad39074f49b43832edcd88",
+      "changed": false
+    },
+    {
+      "symbol": "bootstrap_ci",
+      "source": "train_afib.py",
+      "destination": "metrics",
+      "original_semantic_sha256": "9a0a991e16cec63ea5a732b073940cbb9a3fae3570d0ae97731bcc9ef9d89160",
+      "changed": false
+    },
+    {
+      "symbol": "threshold_stability",
+      "source": "train_afib.py",
+      "destination": "metrics",
+      "original_semantic_sha256": "bbdfae89c71c98b396bd99b71acf37014cbf19940457297263071dbafe98d468",
+      "changed": false
+    },
+    {
+      "symbol": "layer_report",
+      "source": "train_afib.py",
+      "destination": "profiling",
+      "original_semantic_sha256": "aef30f43aef9de627f857f7af96b7e52f1e602dfa4dd71a328ba3d54347f112d",
+      "changed": false
+    },
+    {
+      "symbol": "count_macs",
+      "source": "train_afib.py",
+      "destination": "profiling",
+      "original_semantic_sha256": "c87a25109a1be5aeff82536ae64b13c877ebfdabc7387a762da3a0cea4c2d1c7",
+      "changed": false
+    },
+    {
+      "symbol": "runtime_metadata",
+      "source": "train_afib.py",
+      "destination": "profiling",
+      "original_semantic_sha256": "d045cde5e5f4bb01424654ff26ff9944dd9275f2751f3869819a46f75ee35ae1",
+      "changed": false
+    },
+    {
+      "symbol": "benchmark_cpu",
+      "source": "train_afib.py",
+      "destination": "profiling",
+      "original_semantic_sha256": "c3f9f93f116ccecd9369c2278e7f376f82e28be5a970a3d6e22fce16c30fc896",
+      "changed": false
+    },
+    {
+      "symbol": "save_curves",
+      "source": "train_afib.py",
+      "destination": "reports",
+      "original_semantic_sha256": "9c7da388325be774d4c9ea812645b7248a0d80b29f62de45102fecfad30c9cb4",
+      "changed": false
+    },
+    {
+      "symbol": "prediction_frame",
+      "source": "train_afib.py",
+      "destination": "reports",
+      "original_semantic_sha256": "4c45f1d1b3ea84df81671d31d3cbded444443e955c29ef74a6429bc728aa1663",
+      "changed": false
+    },
+    {
+      "symbol": "failure_analysis",
+      "source": "train_afib.py",
+      "destination": "reports",
+      "original_semantic_sha256": "469ba2caa66fd745f66281fa6d0c7abc71997c40c56b2bea376830d16f0c8397",
+      "changed": false
+    },
+    {
+      "symbol": "evaluate_predictions",
+      "source": "train_afib.py",
+      "destination": "reports",
+      "original_semantic_sha256": "1ba0c3c77614fe956d736541310cd96a1b9ce52a7299931c535d056a12df4e23",
+      "changed": false
+    },
+    {
+      "symbol": "synthetic_noise",
+      "source": "train_afib.py",
+      "destination": "robustness",
+      "original_semantic_sha256": "afd21ab656d5b0d7baaac5dde03ed709566bcfbec6d8acea97b1719841924fdf",
+      "changed": false
+    },
+    {
+      "symbol": "add_noise_at_snr",
+      "source": "train_afib.py",
+      "destination": "robustness",
+      "original_semantic_sha256": "399a41ceb09f9df5ed60ffa76544901d42056ccfcc3b5cca9a67f14acadbb47b",
+      "changed": false
+    },
+    {
+      "symbol": "robustness_evaluation",
+      "source": "train_afib.py",
+      "destination": "robustness",
+      "original_semantic_sha256": "b2a09f5ead6a17b8acbf7ceb165d3e026e4daf18b6bd7a9ea20ac514ac255dda",
+      "changed": false
+    },
+    {
+      "symbol": "quantize_and_evaluate",
+      "source": "train_afib.py",
+      "destination": "quantization",
+      "original_semantic_sha256": "1656a9882f4d01ddd436755a8e78814b4a14e87abfeda41780c084960e010c75",
+      "changed": true
+    },
+    {
+      "symbol": "parser",
+      "source": "train_afib.py",
+      "destination": "training",
+      "original_semantic_sha256": "ed68d27abf0bec2bb4c1e7335254a75b3000ae65f6d6073dca3c2a1363b901f2",
+      "changed": true
+    },
+    {
+      "symbol": "validate_args",
+      "source": "train_afib.py",
+      "destination": "training",
+      "original_semantic_sha256": "b6154a1e6f96ae2a8c5d41c720b48f93c3bf402574d6460ceb9c18fc15bf7fc3",
+      "changed": true
+    },
+    {
+      "symbol": "main",
+      "source": "train_afib.py",
+      "destination": "training",
+      "original_semantic_sha256": "02ed9398c9c8fe68e7bec69dcff4338524a4fbb243834ddb21c23edfcc9769de",
+      "changed": true
+    }
+  ],
+  "changes": [
+    "Shared numerical functions moved into modules without algorithm changes.",
+    "Comments, docstrings, and argument descriptions removed.",
+    "Source guards cover every package Python file.",
+    "Study defaults to the two matched 100-Hz models.",
+    "Benchmark defaults to the recorded fixed six-epoch limit; adaptive timing is optional.",
+    "Original validation protocol is available separately, reconstructed from the manuscript settings.",
+    "Local absolute paths are redacted in archived metadata.",
+    "JSON configuration can supply required arguments.",
+    "Host INT8 cleanup does not restore an unsupported NoQEngine; numerical quantization is unchanged.",
+    "Single-seed result reports omit undefined seed SD.",
+    "Completed-run resume status is saved immediately; the matched runner guards the whole package."
+  ],
+  "result_archives": {
+    "Archive.zip": "83026080c725e03163a3a600a1d0669859622bee5392ab7321177fc1e6ac5848",
+    "results_to_send.zip": "c0cca8694a8e543ec9900fa3cc920cfc08c453191440e4f2a4e4d77bcc385645"
+  }
+}

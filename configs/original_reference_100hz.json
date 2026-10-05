@@ -1,0 +1,21 @@
+{
+  "base": 32,
+  "frequency": 100,
+  "leads": [
+    "all"
+  ],
+  "epochs": 40,
+  "patience": 8,
+  "batch_size": 64,
+  "lr": 0.001,
+  "weight_decay": 0.0001,
+  "dropout": 0.15,
+  "validation_protocol": "original",
+  "calibration": "none",
+  "threshold_method": "youden",
+  "split_seed": 2026,
+  "device": "auto",
+  "latency_repeats": 0,
+  "bootstrap": 0,
+  "threshold_bootstrap": 0
+}

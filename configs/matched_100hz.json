@@ -1,0 +1,35 @@
+{
+  "suite": [
+    "matched"
+  ],
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "epochs": 40,
+  "patience": 8,
+  "batch_size": 64,
+  "lr": 0.001,
+  "weight_decay": 0.0001,
+  "dropout": 0.15,
+  "split_seed": 2026,
+  "calibration": "platt",
+  "threshold_method": "youden",
+  "threshold_bootstrap": 200,
+  "bootstrap": 1000,
+  "paired_bootstrap": 1000,
+  "noise_snr": [
+    20,
+    10,
+    0
+  ],
+  "noise_repeats": 3,
+  "noise_seed": 7919,
+  "latency_warmup": 50,
+  "latency_repeats": 200,
+  "latency_threads": 1,
+  "train_threads": 0,
+  "device": "auto",
+  "plots": true
+}

@@ -1,0 +1,17 @@
+{
+  "epochs": 6,
+  "fixed_budget": true,
+  "patience": 4,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "split_seed": 2026,
+  "batch_size": 64,
+  "threads": 4,
+  "device": "auto",
+  "minutes": 20,
+  "bootstrap": 500,
+  "threshold_bootstrap": 200
+}

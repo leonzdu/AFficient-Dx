@@ -1,0 +1,20 @@
+{
+  "python": "3.12.2 | packaged by conda-forge | (main, Feb 16 2024, 20:54:21) [Clang 16.0.6 ]",
+  "platform": "macOS-26.2-arm64-arm-64bit",
+  "cpu": "arm",
+  "machine": "arm64",
+  "logical_cpus": 8,
+  "packages": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "torch": "2.14.1",
+    "wfdb": "4.3.1",
+    "matplotlib": "3.11.2"
+  },
+  "torch_cuda": null,
+  "cuda_device": null,
+  "torch_threads": 4,
+  "cublas_workspace_config": ":4096:8"
+}

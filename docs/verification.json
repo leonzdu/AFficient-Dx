@@ -1,0 +1,71 @@
+{
+  "unit_tests": {
+    "executed": 12,
+    "failures": 0,
+    "errors": 0,
+    "status": "passed"
+  },
+  "archived_results": {
+    "status": "verified",
+    "artifact_files": 491,
+    "runs": 18,
+    "checks": [
+      "hashes",
+      "weights",
+      "parameter_counts",
+      "test_identities",
+      "metrics",
+      "calibration",
+      "thresholds",
+      "patient_separation",
+      "epoch_budgets"
+    ]
+  },
+  "test_environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+    "cpu": "x86_64",
+    "machine": "x86_64",
+    "logical_cpus": 9,
+    "packages": {
+      "numpy": "2.3.5",
+      "pandas": "2.2.3",
+      "scipy": "1.17.0",
+      "scikit-learn": "1.8.0",
+      "torch": "2.14.1+cpu",
+      "wfdb": "4.3.1",
+      "matplotlib": "3.10.8"
+    },
+    "torch_cuda": null,
+    "cuda_device": null,
+    "torch_threads": 1,
+    "cublas_workspace_config": ":4096:8"
+  },
+  "package_sha256": {
+    "__init__.py": "39335c388693ee345b5c81b30032c80590694eb958d8d175578f50242e79b02a",
+    "__main__.py": "606173ad7ceec9d5ff680bcfe64e7c6a03104cd5fb17b0da6bfabda6926d5e62",
+    "api.py": "1c58c306226d2cfd27dff963f5bae2b2e0d4fe5fdc0f00ba0c788ba2925a0e3e",
+    "artifacts.py": "2bf83d568b3b1b254d2a953da29e051b1b9e355757d976d7e81d28fb72a5db77",
+    "benchmarks.py": "559f78a8f2b4d7df8e1517458fc5fb98677809d58aa0201c2cb5d18b4df17f46",
+    "cache.py": "ef0b9975d741761f21f744eef83819c46f66a2ce47c26046eee0463dd7b554ad",
+    "cli.py": "1d340df6bd6db11e1bb967ab1fac8c56cb0bd57526d427d2c3f0c671a8d89c4a",
+    "configuration.py": "7ecd7b54d03e6f18d76cb1c76d4aaf3a0f9b9d5223ac3d1130bf74155d42a01e",
+    "constants.py": "e8c9c62c0c463577ed94f16f47fb3383421ab9ca8a8f9adf466137fe88f0d066",
+    "data.py": "2de8d1b61fa0d0b34aee1845fb6eed5c52438b264f9c1a1a4a630e02c04442a8",
+    "inference.py": "d54c39f8abbaa262dba5a512d1323492cb0694a5dd36a44715e35b90a85d1c47",
+    "metrics.py": "275380f9bbe8ca5cd3c59cfe0a17d717ead7e3537e9e1b784386a04fd763fe97",
+    "models/__init__.py": "08591bd956808f11658480c97bd3e2d2e18ceacae9f7e7eff3e3a9822098b81f",
+    "models/published.py": "3b7864505c0a1ccb699b3cd33ec564f5d47cb1f0eef1e51c0ddb6c36f024b36d",
+    "models/residual.py": "91ee143993b2f2f57015f8299301bc545ce47d7aecdd0004a8c53c617c940694",
+    "paper_tables.py": "b26285e24e7d231d5fdcc04e61ed0a4c791345fb4fb74bacf1bcca170e952d7f",
+    "prediction.py": "d0a13229ee76777bc9ac3be89c11b8d8136371e4ed871ddbf88b6b189ee46fac",
+    "profiling.py": "3b2934f9aad8a207bdb7529cb2f63ed442257f1ec996836e6ad406022c590ad2",
+    "quantization.py": "24a31829fe5646249ab6b2c1892d16f60bd768e95c3bbfa3e24776f9530d4d91",
+    "reports.py": "7e3574bb2a159e0897d3b75100ef9b5436f88f0251696265b3927ebb2effb529",
+    "robustness.py": "09cebe4579028feca59a535f264c7f9661d6a1c631428251a9548e4517725db5",
+    "study.py": "6d6ac340ed2147e0d46bdfec78549d6558f9c668f7c69397381ebe2e9ac1d873",
+    "training.py": "560818d0a3d9594585f90e7954b7d91b3ff20791c8c6efc09b10e8d2ef75157c",
+    "utils.py": "f8185018fd2d51e2783b1edc4465c8d338af49df410534e6315a92adb40f1ffb",
+    "verification.py": "4189339e17d09cb3c76a34e6d75f39ce16ece12fbaa32ae23a95543c4d9e71ee"
+  }
+}

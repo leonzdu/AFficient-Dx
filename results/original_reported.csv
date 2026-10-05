@@ -1,0 +1,3 @@
+model,frequency_hz,parameters,auroc_mean,auroc_sd,auprc_mean,auprc_sd,sensitivity_mean,specificity_mean,ppv_mean
+AFficient-Dx,50,419,0.9716,0.0020,0.7154,0.0102,0.9167,0.9381,0.5301
+Reference,100,203841,0.9781,0.0022,0.8554,0.0299,,,

@@ -1,0 +1,30 @@
+layer,type,parameters,trainable_parameters,parameter_bytes,buffer_bytes,input_shape,output_shape,conv_linear_macs
+features.0,Conv1d,180,180,720,0,"[1, 12, 1000]","[1, 1, 500]",90000
+features.1,BatchNorm1d,2,2,8,16,"[1, 1, 500]","[1, 1, 500]",0
+features.2,ReLU,0,0,0,0,"[1, 1, 500]","[1, 1, 500]",0
+features.3.main.0,Conv1d,7,7,28,0,"[1, 1, 500]","[1, 1, 500]",3500
+features.3.main.1,BatchNorm1d,2,2,8,16,"[1, 1, 500]","[1, 1, 500]",0
+features.3.main.2,ReLU,0,0,0,0,"[1, 1, 500]","[1, 1, 500]",0
+features.3.main.3,Conv1d,5,5,20,0,"[1, 1, 500]","[1, 1, 500]",2500
+features.3.main.4,BatchNorm1d,2,2,8,16,"[1, 1, 500]","[1, 1, 500]",0
+features.3.skip,Identity,0,0,0,0,"[1, 1, 500]","[1, 1, 500]",0
+features.3.relu,ReLU,0,0,0,0,"[1, 1, 500]","[1, 1, 500]",0
+features.4.main.0,Conv1d,14,14,56,0,"[1, 1, 500]","[1, 2, 250]",3500
+features.4.main.1,BatchNorm1d,4,4,16,24,"[1, 2, 250]","[1, 2, 250]",0
+features.4.main.2,ReLU,0,0,0,0,"[1, 2, 250]","[1, 2, 250]",0
+features.4.main.3,Conv1d,20,20,80,0,"[1, 2, 250]","[1, 2, 250]",5000
+features.4.main.4,BatchNorm1d,4,4,16,24,"[1, 2, 250]","[1, 2, 250]",0
+features.4.skip.0,Conv1d,2,2,8,0,"[1, 1, 500]","[1, 2, 250]",500
+features.4.skip.1,BatchNorm1d,4,4,16,24,"[1, 2, 250]","[1, 2, 250]",0
+features.4.relu,ReLU,0,0,0,0,"[1, 2, 250]","[1, 2, 250]",0
+features.5.main.0,Conv1d,56,56,224,0,"[1, 2, 250]","[1, 4, 125]",7000
+features.5.main.1,BatchNorm1d,8,8,32,40,"[1, 4, 125]","[1, 4, 125]",0
+features.5.main.2,ReLU,0,0,0,0,"[1, 4, 125]","[1, 4, 125]",0
+features.5.main.3,Conv1d,80,80,320,0,"[1, 4, 125]","[1, 4, 125]",10000
+features.5.main.4,BatchNorm1d,8,8,32,40,"[1, 4, 125]","[1, 4, 125]",0
+features.5.skip.0,Conv1d,8,8,32,0,"[1, 2, 250]","[1, 4, 125]",1000
+features.5.skip.1,BatchNorm1d,8,8,32,40,"[1, 4, 125]","[1, 4, 125]",0
+features.5.relu,ReLU,0,0,0,0,"[1, 4, 125]","[1, 4, 125]",0
+features.6,AdaptiveAvgPool1d,0,0,0,0,"[1, 4, 125]","[1, 4, 1]",0
+dropout,Dropout,0,0,0,0,"[1, 4]","[1, 4]",0
+fc,Linear,5,5,20,0,"[1, 4]","[1, 1]",4
