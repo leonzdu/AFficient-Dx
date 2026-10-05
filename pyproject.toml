@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "afficient-dx"
+version = "0.1.0"
+description = "Reproducible AFficient-Dx experiments on PTB-XL"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENSE", "LICENSES/*.txt"]
+authors = [{name = "Leon Du"}]
+dependencies = [
+  "numpy>=1.24",
+  "pandas>=2.0",
+  "scipy>=1.10",
+  "scikit-learn>=1.3",
+  "torch>=2.2",
+  "wfdb>=4.1",
+  "matplotlib>=3.7"
+]
+
+[project.scripts]
+afficient-dx = "afficient_dx.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools]
+package-dir = {"" = "src"}

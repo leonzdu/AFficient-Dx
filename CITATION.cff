@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "Please cite this software and the AFficient-Dx manuscript when using this repository."
+type: software
+title: "AFficient-Dx: A Lightweight ECG-Based Residual Convolutional Neural Network for Resource-Constrained Atrial Fibrillation Screening"
+version: 0.1.0
+authors:
+  - family-names: Du
+    given-names: Leon
+license: MIT
+keywords:
+  - atrial fibrillation
+  - electrocardiogram
+  - PTB-XL
+  - efficient neural networks
