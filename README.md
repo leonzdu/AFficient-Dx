@@ -1,6 +1,6 @@
 # AFficient-Dx
 
-Code and recorded experiments for **AFficient-Dx: A Lightweight ECG-Based Residual Convolutional Neural Network for Resource-Constrained Atrial Fibrillation Screening**, by Leon Du.
+This is the official repository for the paper "AFficient-Dx: A Lightweight ECG-Based Residual Convolutional Neural Network for Resource-Constrained Atrial Fibrillation Screening" by Leon Du, accepted in the **2026 _IEEE International Conference on Data Mining Workshops (ICDM Workshops)_**.
 
 AFficient-Dx classifies atrial fibrillation in 10-second ECGs with **419 trainable parameters**. Its three residual blocks use 1, 2, and 4 channels. The original 50-Hz model achieved **0.9716 AUROC** and **0.7154 AUPRC** on PTB-XL, with 1.676 kB of FP32 parameter storage.
 
